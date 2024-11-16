@@ -24,6 +24,6 @@ To pin a database to Voyager, follow the "Create a db and pin..." prompts. This 
 
 ## Fetching a DB
 
-To fetch a pinned database, floow the "Fetch a pinned db..." prompts.
+To fetch a pinned database, follow the "Fetch a pinned db..." prompts.
 
 If successful, you will have a replica of the database requested synchronized to your browser peer.
