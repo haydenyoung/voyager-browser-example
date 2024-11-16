@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OrbitDB - Voyager Example</title>
+  </head>
+  <body>
+    <header>
+      <h1>OrbitDB - Voyager Client</h1>
+    </header>
+    <main id="app">
+      <aside>
+        <h2>Peer Details</h2>
+        <div id="peerId"></div>
+      </aside>
+
+      <div id="main">
+        <div id="orbiterAddressOrIdPanel" class="box">
+          <h2>Orbiter Address</h2>
+          <p>Specify an Orbiter pinning service address</p>
+          <input
+            type="text"
+            id="orbiterAddressOrId"
+            name="orbiterAddressOrId"
+            placeholder="Orbiter Address"
+          />
+        </div>
+        <div class="next">Then</div>
+        <div id="orbiterActions">
+          <section class="box">
+            <h2>Create a db and pin...</h2>
+            <div>
+              <h3>Create a db</h3>
+              <p>Click on "Create" to create a pre-populated database</p>
+              <button id="create">Create</button>
+              <div id="created"></div>
+            </div>
+            <div>
+              <h3>Pin the db</h3>
+              <p>Click on "Pin" to pin the database to Orbiter</p>
+              <div>
+                <button id="pin">Pin</button>
+              </div>
+              <div id="pinned"></div>
+            </div>
+          </section>
+
+          <div class="next">Or</div>
+
+          <section class="box">
+            <h2>Fetch a pinned db...</h2>
+            <p>Click on "Fetch" to retrieve the database from Orbiter</p>
+            <input type="text" id="address" name="address" />
+            <button id="fetch">Fetch</button>
+            <div id="fetched"></div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "voyager-examples",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "rollup-plugin-visualizer": "^5.12.0",
+    "vite": "^5.3.4",
+    "vite-plugin-node-polyfills": "^0.22.0"
+  },
+  "dependencies": {
+    "@libp2p/websockets": "^9.0.11",
+    "@orbitdb/core": "^2.4.3",
+    "@orbitdb/voyager": "github:orbitdb/orbit-db-pinner#pinner/new-refactor-2",
+    "events": "^3.3.0",
+    "helia": "^5.1.0"
+  }
+}

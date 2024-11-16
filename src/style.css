@@ -1,0 +1,49 @@
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
+#orbiterAddressOrIdPanel {
+  width: auto;
+}
+
+#orbiterActions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.next {
+  margin: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#orbiterActions > section {
+  align-self: stretch;
+}
+
+.box {
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box > h2 {
+  margin: 0;
+}
+
+input[type="text"] {
+  height: 2rem;
+  padding: 5px;
+}
+
+button {
+  width: 100px;
+  margin: 5px 0;
+  padding: 8px;
+}
