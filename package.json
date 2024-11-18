@@ -6,10 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prettier": "npx prettier src --check",
+    "prettier:fix": "npm run prettier -- --write",
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "format": "npm run lint:fix && npm run prettier:fix"
   },
   "devDependencies": {
     "rollup-plugin-visualizer": "^5.12.0",
+    "standard": "^17.1.2",
     "vite": "^5.3.4",
     "vite-plugin-node-polyfills": "^0.22.0"
   },
